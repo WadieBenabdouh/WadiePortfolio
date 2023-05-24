@@ -17,6 +17,7 @@ body{
     background-color: $bg-color;
     padding: 1em;
 }
+// HEADER
 header{
     display: flex;
     flex-direction: column;
@@ -34,3 +35,15 @@ header{
         }
     }
 }
+// HEADER END
+
+// SECTION > ABOUT-ME
+.about-me{
+    
+    .wadie-image{
+        width: 70%;
+        outline: red solid;
+        background-color: gray;
+    }
+}
+// SECTION > ABOUT-ME END

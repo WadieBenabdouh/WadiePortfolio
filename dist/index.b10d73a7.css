@@ -31,4 +31,10 @@ header .socials > * {
   max-width: 1.3em;
 }
 
+.about-me .wadie-image {
+  width: 70%;
+  background-color: gray;
+  outline: solid red;
+}
+
 /*# sourceMappingURL=index.b10d73a7.css.map */
