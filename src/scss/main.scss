@@ -1,0 +1,15 @@
+// CUSTOM VARIABLE
+$bg-color: #151515;
+$form-bg: #242424;
+$form-acc: #777777;
+$mint: #81cbab;
+// font
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+// font end
+
+*, ::before, ::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
