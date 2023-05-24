@@ -1,4 +1,4 @@
-// CUSTOM VARIABLE
+// CUSTOM VARIABLES
 $bg-color: #151515;
 $form-bg: #242424;
 $form-acc: #777777;
@@ -12,4 +12,25 @@ $mint: #81cbab;
     padding:0;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
+}
+body{
+    background-color: $bg-color;
+    padding: 1em;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    h3{
+        color: #fff;
+    }
+    .socials{
+        display: flex;
+        gap: 1em;
+        >*{
+            max-width: 1.3em;    
+        }
+    }
 }

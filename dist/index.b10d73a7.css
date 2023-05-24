@@ -6,4 +6,29 @@
   font-family: Space Grotesk, sans-serif;
 }
 
+body {
+  background-color: #151515;
+  padding: 1em;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  display: flex;
+}
+
+header h3 {
+  color: #fff;
+}
+
+header .socials {
+  gap: 1em;
+  display: flex;
+}
+
+header .socials > * {
+  max-width: 1.3em;
+}
+
 /*# sourceMappingURL=index.b10d73a7.css.map */
