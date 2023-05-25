@@ -264,10 +264,12 @@ summary {
 
 .go-up {
     text-align: center;
-    display: block;
     text-decoration: none;
     font-size: 9px;
     font-weight: bold;
     color: #fff;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
