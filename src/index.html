@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="navigateUp">
         <h3>WadieBen</h3>
         <div class="socials">
             <a href="#"><img src="images/icon-github.svg" alt="Github"></a>
@@ -31,7 +31,7 @@
             <h1>Nice to meet you!<br>I'm <span>Wadie Benabdouh</span></h1>
             <p>Based in Morocco, I'm a front-end developer passionate about building accessible web apps that users
                 love.</p>
-            <a href="#">CONTACT ME</a>
+            <a href="#contact-me">CONTACT ME</a>
         </div>
     </section>
 
@@ -170,7 +170,7 @@
         <p>I would love to hear about your project and how I could help, Please fill in the form, and I'll get back to
             you as soon as possible.</p>
 
-        <form>
+        <form id="contact-me">
             <!-- name -->
             <label for="name">Name</label>
             <input type="text" id="name">
@@ -184,6 +184,8 @@
             <input type="button" id="submitBtn" value="SEND MESSAGE">
         </form>
     </summary>
+
+    <a class="go-up" href="#navigateUp">GO UP <i class="fa-sharp fa-regular fa-arrow-up"></i> </a>
     <script src="main.js"></script>
 </body>
 

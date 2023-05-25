@@ -16,6 +16,10 @@ $mint: #81cbab;
     font-family: 'Space Grotesk', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $bg-color;
     padding: 1em;
@@ -255,4 +259,15 @@ summary {
         }
     }
 }
+
 // SUMMARY END
+
+.go-up {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}

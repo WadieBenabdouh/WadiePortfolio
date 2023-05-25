@@ -6,6 +6,10 @@
   font-family: Space Grotesk, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #151515;
   padding: 1em;
@@ -225,6 +229,16 @@ summary form #submitBtn {
   -webkit-text-decoration: underline #81cbab;
   text-decoration: underline #81cbab;
   text-decoration-thickness: 3px;
+}
+
+.go-up {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 9px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
