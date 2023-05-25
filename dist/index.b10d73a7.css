@@ -27,7 +27,7 @@ header .socials {
   display: flex;
 }
 
-header .socials > * {
+header .socials img {
   max-width: 1.3em;
 }
 
@@ -48,7 +48,7 @@ header .socials > * {
   background: url("pattern-rings.f7d8a731.svg") 0 0 / contain no-repeat;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+  gap: 1.5em;
   display: flex;
 }
 
@@ -67,6 +67,16 @@ header .socials > * {
 .about-me .info p {
   color: #777;
   text-align: center;
+}
+
+.about-me .info a {
+  color: #fff;
+  letter-spacing: 2px;
+  text-underline-offset: 5px;
+  font-weight: bold;
+  -webkit-text-decoration: underline #81cbab;
+  text-decoration: underline #81cbab;
+  text-decoration-thickness: 3px;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
