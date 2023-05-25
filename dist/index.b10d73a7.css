@@ -79,4 +79,30 @@ header .socials img {
   text-decoration-thickness: 3px;
 }
 
+hr {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.skills {
+  color: #fff;
+  grid-template-columns: 1fr;
+  place-items: center;
+  row-gap: 1em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  display: grid;
+}
+
+.skills .skill {
+  text-align: center;
+  flex-direction: column;
+  gap: .5em;
+  display: flex;
+}
+
+.skills .skill p {
+  color: #777;
+}
+
 /*# sourceMappingURL=index.b10d73a7.css.map */

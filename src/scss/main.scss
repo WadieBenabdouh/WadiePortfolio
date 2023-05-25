@@ -90,3 +90,31 @@ header{
     }
 }
 // SECTION > ABOUT-ME END
+
+hr{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+// ASIDE SKILLS
+.skills{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    color: #fff;
+    row-gap: 1em;
+
+    .skill{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+
+        p{
+            color: $form-acc;
+        }
+    }
+}
+// ASIDE SKILLS END
