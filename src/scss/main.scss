@@ -7,40 +7,46 @@ $mint: #81cbab;
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 // font end
 
-*, ::before, ::after{
-    margin:0;
-    padding:0;
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
-body{
+
+body {
     background-color: $bg-color;
     padding: 1em;
 }
+
 // HEADER
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
 
-    h3{
+    h3 {
         color: #fff;
     }
-    .socials{
+
+    .socials {
         display: flex;
         gap: 1em;
-        
-        img{
-            max-width: 1.3em;    
+
+        img {
+            max-width: 1.3em;
             // outline: red solid;
         }
     }
 }
+
 // HEADER END
 
 // SECTION > ABOUT-ME
-.about-me{
+.about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,12 +57,13 @@ header{
     background-position-x: 260px;
     background-position-y: 200px;
 
-    .wadie-image{
+    .wadie-image {
         width: 70%;
         // outline: solid red;
-        
+
     }
-    .info{
+
+    .info {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -64,21 +71,23 @@ header{
         background: url('../images/pattern-rings.svg') no-repeat;
         background-size: contain;
 
-        h1{
+        h1 {
             color: #fff;
             text-align: center;
-            
-            span{
+
+            span {
                 text-decoration: underline $mint;
                 text-underline-offset: 5px;
                 text-decoration-thickness: 3px;
             }
         }
-        p{
+
+        p {
             color: $form-acc;
             text-align: center;
         }
-        a{
+
+        a {
             text-decoration: none;
             color: #fff;
             font-weight: bold;
@@ -89,15 +98,16 @@ header{
         }
     }
 }
+
 // SECTION > ABOUT-ME END
 
-hr{
+hr {
     margin-top: 4em;
     margin-bottom: 4em;
 }
 
 // ASIDE SKILLS
-.skills{
+.skills {
     margin-top: 2em;
     margin-bottom: 4em;
     display: grid;
@@ -106,13 +116,13 @@ hr{
     color: #fff;
     row-gap: 1em;
 
-    .skill{
+    .skill {
         text-align: center;
         display: flex;
         flex-direction: column;
         gap: .5em;
 
-        p{
+        p {
             color: $form-acc;
         }
     }
