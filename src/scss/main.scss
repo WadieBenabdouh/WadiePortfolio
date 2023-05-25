@@ -114,7 +114,9 @@ hr {
     grid-template-columns: 1fr;
     place-items: center;
     color: #fff;
-    row-gap: 1em;
+    row-gap: 2em;
+    background: url('../images/pattern-rings.svg') 150px 460px no-repeat;
+
 
     .skill {
         text-align: center;
@@ -128,3 +130,51 @@ hr {
     }
 }
 // ASIDE SKILLS END
+
+//MAIN
+main{
+    .projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1.5em;
+        color: #fff;
+
+        .project{
+                padding: .5em 0;
+            img{
+                max-width: 100%;
+                border-radius: 5px;
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+
+                .stack{
+                    display: flex;
+                    gap: 1em;
+                    font-size: 13px;
+                    color: $form-acc;
+                }
+
+                .links{
+                    display: flex;
+                    gap: 1em;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #fff;
+                        font-weight: bold;
+                        letter-spacing: 2px;
+                        text-decoration: underline $mint;
+                        text-underline-offset: 5px;
+                        text-decoration-thickness: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+//MAIN END
