@@ -220,6 +220,7 @@ summary {
         flex-direction: column;
         width: 100%;
         padding: 0 1em;
+        height: 20em;
 
         label {
             color: $form-acc;
@@ -254,8 +255,13 @@ summary {
             letter-spacing: 1px;
             cursor: pointer;
             text-decoration: underline $mint;
-            text-underline-offset: 5px;
+            text-underline-offset: 4px;
             text-decoration-thickness: 3px;
+        }
+
+        #submitBtn:hover {
+            color: $mint;
+            text-decoration: underline #fff;
         }
     }
 }
