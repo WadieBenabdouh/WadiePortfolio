@@ -47,6 +47,7 @@ header .socials img {
 }
 .about-me .wadie-image {
   width: 70%;
+  border-radius: 10px;
 }
 .about-me .info {
   display: flex;
