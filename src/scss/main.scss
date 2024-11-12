@@ -2,7 +2,7 @@
 $bg-color: #151515;
 $form-bg: #242424;
 $form-acc: #777777;
-$mint: #81cbab;
+$mint: #ff8a80;
 // font
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 // font end
@@ -229,7 +229,7 @@ summary {
             border: none;
             height: 2em;
             background-color: $mint;
-            border-radius: 2px;
+            border-radius: 5px;
             padding-left: 10px;
         }
 
@@ -276,4 +276,14 @@ summary {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    margin-top: 3em;
+
+    h6{
+        color: #fff;
+        font-weight: 100;
+        text-align: center;
+    }
 }
