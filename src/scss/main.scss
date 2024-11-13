@@ -287,3 +287,87 @@ footer{
         text-align: center;
     }
 }
+
+
+// -------- MEDIA QUERIES DESKTOP -------- //
+@media (min-width: 769px) and (max-width: 1700px) {
+    body {
+        padding: 0 2em;
+    }
+    // HEADER
+    // HEADER END
+
+    // SECTION ABOUT-ME
+    .about-me {
+        background-size: 100px;
+        gap: 3em;
+
+        img {
+            max-width: 20%;
+        }
+
+        .info {
+            background-size: 300px;
+            background-position: 260px 50px;
+
+            p {
+                color: #fff;
+                width: 50%;
+                line-height: 1.5em;
+            }
+        }
+    }
+    // SECTION ABOUT-ME END
+
+    // ASIDE SKILLS
+    .skills {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .skill {
+            padding: 2em 0em;
+            background-color: #ff8a80;
+            width: 60%;
+            border-radius: 15px;
+            background-color: hsla(0, 100%, 50%, 1);
+            background-image: radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
+            radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+            radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+            radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+            radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+            radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
+            radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+
+            p {
+                color: #000;
+                font-weight: 100;
+            }
+        }
+    }
+    // ASIDE SKILLS END
+
+    // MAIN
+    main {
+
+        h2 {
+            text-decoration: underline;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5em;
+
+            .project {
+
+                .info {
+                    border-left: solid 2px $mint;
+                    padding-left: 1em;
+                    border-bottom-left-radius: 10px;
+                }
+            }
+        }
+    }
+    // MAIN END
+}
+
+// -------- MEDIA QUERIES DESKTOP END -------- //
